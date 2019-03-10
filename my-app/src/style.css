@@ -72,4 +72,6 @@ body {
   border: 1px solid #800;
   background-color: #f0f0f0;
   margin-bottom: 10px;
+  grid-column-start: 2;
+  grid-column-end: 5;
 }
