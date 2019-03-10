@@ -58,3 +58,8 @@ body {
     font-family: 'Zilla Slab Highlight', cursive;
     font-size: 45px;
 }
+
+.paragraph {
+  font-family: 'Source Serif Pro', serif;
+  font-size:20px;
+}
