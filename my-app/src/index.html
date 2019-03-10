@@ -3,11 +3,22 @@
     <link rel="stylesheet" type="text/css" href = "style.css">
     <link href="https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+    <script src="index.js" async></script>
   </head>
   <body class='grid-container'>
-    <div class='advert1'><a href="scam.html" target="_blank"><img src="ad1.jpg"></a></div>
-    <div class='advert2'><img src="ad2.png"></div>
+    <div id="ad1" class='advert1'><a href="scam.html" target="_blank"><img src="ad1.jpg"></a></div>
+    <div id="ad2" class='advert2'><a href="scam.html" target="_blank"><img src="ad2.png"></a></div>
     <div class='content'>
+        <button id="myBtn">Open Modal</button>
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <p>Some text in the Modal..</p>
+            </div>
+          
+        </div>
       <br>
       <h1 class= "title"> What You Should Order At Starbucks </h1>
       <br><br>
@@ -24,9 +35,9 @@
           so the drink is not too sweet. It is topped off with some freshly whipped cream. Although I do recommend cutting the syrup
           by 1/5 for optimal sweetness.</p>
         <br>
-        <img src = "starbucks demo.jpg" alt = "Greentea Frap" width = "300" height = "400"></img>
+        <img id="ad3" src = "starbucks demo.jpg" alt = "Greentea Frap" width = "300" height = "400"></img>
         <br><br>
-        <a href="http://minesweeperonline.com/"><div class='advert3'><img src="scam.gif"></div></a>
+        <a href="scam.html" target="_blank"><div class='advert3'><img src="scam.gif"></div></a>
         <br>
         <p align="left"> However, if you are not a fan of their Frappuccino, I have another recommendation, their Mango Dragonfruit Refresher with Lemonade.
           It is abosultely refreshing and light which is good if you are not a fan of the heavy whipped cream and iced mixture. This is a perfect drink
@@ -45,5 +56,5 @@
       Body: <textarea rows="5" col="30" id="bodyText"></textarea><br /><br />
       <input type-"button" id="addComment" value="Add Comment" />
     </div>
-
+    
   </body>
