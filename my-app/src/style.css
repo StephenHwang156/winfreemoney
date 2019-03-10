@@ -62,4 +62,13 @@ body {
 .paragraph {
   font-family: 'Source Serif Pro', serif;
   font-size:20px;
+
+}
+
+.commentbox {
+  padding: 1%;
+  width: 96%;
+  border: 1px solid #800;
+  background-color: #f0f0f0;
+  margin-bottom: 10px;
 }
