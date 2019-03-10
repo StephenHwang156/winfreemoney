@@ -14,21 +14,23 @@ body {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     grid-gap: 10px;
-    background: #778899;
+    
 }
 
 .grid-container > div {
-    background: pink;
+    
 }
 
 .advert1 {
-    background: royalblue;
+   
     grid-row-start: 1;
     grid-row-end: 5;
+    background-image: url('../ad2.png')
 }
 
 .advert2 {
     grid-row-start: 1;
     grid-row-end: 5;
     grid-column-start: 5;
+    background-image: url('../ad2.png')
 }
