@@ -14,7 +14,7 @@ body {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-gap: 10px;
-    
+
 }
 
 
@@ -47,9 +47,14 @@ body {
 
 .content {
     grid-column-start: 2;
-    grid-column-end: 5; 
+    grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 5;
     background-color: whitesmoke;
     text-align: center;
+}
+
+.title {
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-size: 45px;
 }
